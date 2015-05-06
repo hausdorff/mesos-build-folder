@@ -19,6 +19,6 @@
 # This is a wrapper for running mesos-slave before it is installed
 # that sets up some flags environment variables.
 
-. /Users/alex/src/mesos/build/bin/mesos-slave-flags.sh
+. /root/src/mesos/build/bin/mesos-slave-flags.sh
 
-exec /Users/alex/src/mesos/build/src/mesos-slave "${@}"
+exec /root/src/mesos/build/src/mesos-slave "${@}"

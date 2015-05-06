@@ -16,4 +16,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export MESOS_WEBUI_DIR=/Users/alex/src/mesos/build/../src/webui
+export MESOS_WEBUI_DIR=/root/src/mesos/build/../src/webui

@@ -2,11 +2,11 @@
 
 # This script uses MESOS_SOURCE_DIR and MESOS_BUILD_DIR which come
 # from configuration substitutions.
-MESOS_SOURCE_DIR=/Users/alex/src/mesos/build/..
-MESOS_BUILD_DIR=/Users/alex/src/mesos/build
+MESOS_SOURCE_DIR=/root/src/mesos/build/..
+MESOS_BUILD_DIR=/root/src/mesos/build
 
 # Locate Java from environment or use configure discovered location.
-JAVA_HOME=${JAVA_HOME-/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home}
+JAVA_HOME=${JAVA_HOME-/usr/lib/jvm/java-6-openjdk-amd64}
 JAVA=${JAVA-${JAVA_HOME}/bin/java}
 
 # Use colors for errors.

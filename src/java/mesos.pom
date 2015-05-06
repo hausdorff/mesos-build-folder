@@ -87,7 +87,7 @@
     </dependency>
   </dependencies>
   <build>
-    <sourceDirectory>/Users/alex/src/mesos/build/../src/java/src</sourceDirectory>
+    <sourceDirectory>/root/src/mesos/build/../src/java/src</sourceDirectory>
     <resources>
       <resource>
         <directory>${basedir}/classes</directory>
@@ -107,7 +107,7 @@
             </goals>
             <configuration>
               <sources>
-                <source>/Users/alex/src/mesos/build/src/java/generated</source>
+                <source>/root/src/mesos/build/src/java/generated</source>
               </sources>
             </configuration>
           </execution>
@@ -131,7 +131,7 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <sourcepath>/Users/alex/src/mesos/build/../src/java/src</sourcepath>
+          <sourcepath>/root/src/mesos/build/../src/java/src</sourcepath>
           <subpackages>org.apache.mesos</subpackages>
         </configuration>
         <executions>

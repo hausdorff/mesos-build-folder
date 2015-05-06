@@ -19,6 +19,6 @@
 # This is a wrapper for running mesos-master before it is installed
 # that sets up some flags via environment variables.
 
-. /Users/alex/src/mesos/build/bin/mesos-master-flags.sh
+. /root/src/mesos/build/bin/mesos-master-flags.sh
 
-exec /Users/alex/src/mesos/build/src/mesos-master "${@}"
+exec /root/src/mesos/build/src/mesos-master "${@}"

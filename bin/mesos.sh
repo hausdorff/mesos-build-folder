@@ -20,18 +20,18 @@
 # that first sets up environment variables as appropriate.
 
 # Add any scripts from 'src/cli'.
-PATH=/Users/alex/src/mesos/build/../src/cli:${PATH}
+PATH=/root/src/mesos/build/../src/cli:${PATH}
 
 # Add the executables (or rather, their libtool wrappers) from 'src'.
-PATH=/Users/alex/src/mesos/build/src:${PATH}
+PATH=/root/src/mesos/build/src:${PATH}
 
 export PATH
 
 # Add 'src/cli/python' to PYTHONPATH.
 # TODO(benh): Remove this if/when we install the 'mesos' module via
 # PIP and setuptools.
-PYTHONPATH=/Users/alex/src/mesos/build/../src/cli/python:${PYTHONPATH}
+PYTHONPATH=/root/src/mesos/build/../src/cli/python:${PYTHONPATH}
 
 export PYTHONPATH
 
-exec /Users/alex/src/mesos/build/src/mesos "${@}"
+exec /root/src/mesos/build/src/mesos "${@}"

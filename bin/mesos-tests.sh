@@ -19,7 +19,7 @@
 # This is a wrapper for running mesos-tests from the build directory
 # that sets up some flags via environment variables.
 
-. /Users/alex/src/mesos/build/bin/mesos-tests-flags.sh
+. /root/src/mesos/build/bin/mesos-tests-flags.sh
 
 
-exec /Users/alex/src/mesos/build/src/mesos-tests "${@}"
+exec /root/src/mesos/build/src/mesos-tests "${@}"

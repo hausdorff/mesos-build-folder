@@ -20,9 +20,9 @@
 # installed that first sets up some flags via environment variables.
 
 # Use colors for errors.
-. /Users/alex/src/mesos/build/../support/colors.sh
+. /root/src/mesos/build/../support/colors.sh
 
-LIBTOOL=/Users/alex/src/mesos/build/libtool
+LIBTOOL=/root/src/mesos/build/libtool
 
 test ! -e ${LIBTOOL} && \
   echo "${RED}Failed to find ${LIBTOOL}, have you run configure?${NORMAL}" && \
@@ -35,7 +35,7 @@ test $? != 0 && \
   echo "${RED}Generated libtool doesn't appear to support lldb${NORMAL}" && \
   exit 1
 
-. /Users/alex/src/mesos/build/bin/mesos-master-flags.sh
+. /root/src/mesos/build/bin/mesos-master-flags.sh
 
 exec ${LIBTOOL} --mode=execute lldb -- \
-  /Users/alex/src/mesos/build/src/mesos-master "${@}"
+  /root/src/mesos/build/src/mesos-master "${@}"

@@ -19,6 +19,6 @@
 # This is a wrapper for running mesos-local before it is installed
 # that sets up some flags via environment variables.
 
-. /Users/alex/src/mesos/build/bin/mesos-local-flags.sh
+. /root/src/mesos/build/bin/mesos-local-flags.sh
 
-exec /Users/alex/src/mesos/build/src/mesos-local "${@}"
+exec /root/src/mesos/build/src/mesos-local "${@}"

@@ -18,5 +18,5 @@
 
 export MESOS_WORK_DIR=/tmp/mesos
 
-. /Users/alex/src/mesos/build/bin/mesos-master-flags.sh
-. /Users/alex/src/mesos/build/bin/mesos-slave-flags.sh
+. /root/src/mesos/build/bin/mesos-master-flags.sh
+. /root/src/mesos/build/bin/mesos-slave-flags.sh
